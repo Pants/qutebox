@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 
     auto main_menu = new MainMenu(hotkey_handler, config_handler);
 
-    //Needs to be initialized last, after everything else has register its hotkeys
+    // Needs to be initialized last, after everything else has registered its hotkeys
     hotkey_handler->start();
     return a.exec();
 }
